@@ -5,3 +5,14 @@
 
 ## Projeto 1 - Entrada de dados no terminal
 
+<p align="center">
+  <img src="img/conta-banco-terminal.jpg" alt="Print da tela no terminal" width="auto"/>
+</p>
+
+## Versão Otimizada do Projeto 1
+
+<p>Essa é uma versão funcional e full stack do projeto 1, usando html, css e java script no frontend e Java com spring boot no backend</p>
+
+<p align="center">
+  <img src="img/conta-banco-terminal-full-stack.jpg" alt="Print da tela full stack" width="auto"/>
+</p>
