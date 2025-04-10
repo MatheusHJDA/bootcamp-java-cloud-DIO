@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Conta Bancária</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Cadastro de Conta</h2>
+    <form id="form-conta">
+        <input type="text" id="nomeCliente" name="nomeCliente" placeholder="Nome do Cliente" required>
+        <input type="text" id="numero" name="numero" placeholder="Número da Conta" required>
+        <input type="text" id="agencia" name="agencia" placeholder="Agência" required>
+        <input type="number" step="0.01" id="saldo" name="saldo" placeholder="Saldo Inicial" required>
+        <button type="submit">Criar Conta</button>
+    </form>
+    <div id="mensagem" class="mensagem"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
