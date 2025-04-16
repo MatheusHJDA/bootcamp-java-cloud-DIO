@@ -2,7 +2,7 @@ package org.matheus.estudos;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "*") // permite que o front acesse essa API de qualquer domínio
+@CrossOrigin(origins = "*")
 public class AccountController {
 
     @PostMapping("/criar-conta")
